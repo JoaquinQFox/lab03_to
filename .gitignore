@@ -1,0 +1,157 @@
+# ==========================================
+# SISTEMAS OPERATIVOS
+# ==========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ==========================================
+# EDITORES / IDEs
+# ==========================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/.nb-gradle/
+
+# ==========================================
+# JAVA
+# ==========================================
+
+# Compilados
+*.class
+
+# JAR/WAR/EAR generados
+*.jar
+*.war
+*.ear
+
+# Directorios de build
+target/
+out/
+build/
+
+# Gradle
+.gradle/
+.gradle-cache/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+# ==========================================
+# C++
+# ==========================================
+
+# Ejecutables
+*.exe
+*.out
+*.app
+
+# Objetos
+*.o
+*.obj
+
+# Librerías
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Archivos de depuración
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Makefile
+compile_commands.json
+
+# Build directories comunes
+cmake-build-*/
+build-*/
+out/
+
+# ==========================================
+# GO
+# ==========================================
+
+# Binarios compilados
+*.exe
+*.exe~
+*.test
+*.out
+
+# Binarios generados por go build
+/bin/
+/bin/*
+/build/
+/build/*
+
+# Coverage
+coverage.out
+coverage.html
+*.coverprofile
+
+# Profiling
+*.prof
+
+# Go workspace
+go.work.sum
+
+# ==========================================
+# LOGS / TEMPORALES
+# ==========================================
+
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ==========================================
+# VARIABLES DE ENTORNO / SECRETOS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# COBERTURA / TESTING
+# ==========================================
+
+coverage/
+.coverage/
