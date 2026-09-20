@@ -71,14 +71,14 @@ int main() {
     double fin = 20;
     ThreadPool pool;
     double resultadoAnterior = 0;
-    cout << fixed << setprecision(5);
+    cout << fixed << setprecision(10);
 
     for (int n = 1; n <= 1000000; n++) {
         double resultado = integrar(funcion, inicio, fin, n, pool);
 
         cout << "N = " << n << " | Area = " << resultado << endl;
 
-        if (n > 1 && abs(resultado - resultadoAnterior) < 0.000001) {
+        if (n > 1 && resultado == resultadoAnterior) {
             cout << "\nResultado repetido." << endl;
             cout << "N = " << n << endl;
             cout << "Area = " << resultado << endl;
